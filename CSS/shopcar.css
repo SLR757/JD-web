@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: 微软雅黑;
+}
+#head{
+    width: 100%;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    background-color: #e3e4e5;
+}
+#head_top{
+    width: 990px;
+    height: 31px;
+    background-color: #e3e4e5;
+}
+li{
+    list-style: none;
+}
+.img1{
+    width: 10px;
+    height: 10px;
+}
+.line{
+    font-size: 13px;
+    color: #ac9999;
+}
+#head_top_left{
+    display: inline-block;
+    position: relative;
+    margin-top: 10px; 
+    margin-left: 18px;
+    /* padding-left: 10px; */
+}
+#head_top_left_a2{
+    position: relative;
+    margin-left: 10px;
+}
+#head_top_right{
+    display: inline-block;
+}
+#head_top_right_ul{
+    display: flex;
+    position: relative;
+    /* margin-left: 412px;*/
+    margin-top: 10px; 
+    padding-left:5px; 
+}
+.head_top_right_a{
+    font-size: 12px;
+    color: #ac9999;
+    text-decoration-line: none;
+}
+.head_top_right_a:hover{
+    color: #e64346;
+    cursor: pointer;
+}
+
+#head_top_center{
+    display: inline-block;
+    position: relative;
+    margin-left: 185px;
+}
+#head_top_left_i{
+    color: white;
+    width: 38px;
+    height: 16px;
+    line-height: 16px;
+    background-color: #d7d4cb;
+    display: inline-block;
+    font-size: 8px;
+    text-align: center;
+    border-radius:8px; 
+    font-family: 黑体;
+}
+
+
+
+/* 上部分中间 */
+#middle{
+    width: 100%;
+    height: 1050px;
+    background-color: bisque;
+    /* display:flex; */
+    /* display: inline;
+    justify-content: center; */
+}
+#middle_head{
+    width: 990px;
+    height: 97px;
+    background-color: blueviolet;
+    position: relative;
+    margin-left: 180px;
+    /* z-index: 1; */
+}
+#middle_head_left_a1{
+    width: 134px;
+    height: 42px;
+    background-color: violet;
+    /* z-index: 2; */
+    background-image: url(../images/jdlogo-201708-@1x.png);
+}
+#middle_head_right{
+    
+}
+
+
+
+#middle_middle{
+    height: 550px;
+    width: 990px;
+    background-color: cadetblue;
+    position: relative;
+    margin-left: 180px;
+}

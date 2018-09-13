@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    font-family: 微软雅黑;
+}
+#head{
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px lightgray;
+    /* border-bottom: 3px lightgray;  */
+}
+#img1{
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    left: 65px;
+    top: 10px;
+    z-index: 1;
+}
+#img2{
+    width: 96px;
+    height: 34px;
+    position: absolute;
+    left: 230px;
+    top: 30px;
+}
+#head_mes{
+    display :inline-block;
+    font-size: 14px;
+    color: #999999;
+    position: relative;
+    margin-left: 1000px;
+    margin-top: 50px;
+}
+#a2{
+    font-size: 14px;
+    color: #e63f3b;
+    text-decoration-line: none;
+    position: relative;
+    margin-left: 20px;
+
+}
+#a2:hove{
+    color: #e63f3b;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#a1{
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 65px;
+    opacity: 0;
+    z-index: 2;
+}
+
+
+
+#middle{
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+    /* position: relative; */
+}
+#middle_m{
+    width: 406px;
+    height: 407px;
+    display :inline-block;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    margin-top: 65px;
+    margin-left: 473px;
+    /* background-color: #ecdfdf; */
+    background-color: #ffffff;
+
+}
+#middle_top{
+    /* width: 500px; */
+    height: 70PX;
+    background-color: #ffffff;
+}
+#liucheng{
+    position: absolute;
+    top: 7px;
+}
+#middle_center{
+    height: 240px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 15px;
+}
+#middle_center_form1{
+    width: 404px;
+    height: 45px;
+    /* border: 1px solid #dddddd; */
+    position: relative;
+    margin-top: 45px;
+}
+#middle_center_form1_adds_button{
+    display: inline-block;
+    width: 98px;
+    height: 45px;
+    /* background-color: #ffffff; */
+    /* border: 1px solid rgb(82, 82, 82); */
+    background-color: #fff;
+    border: 1px #dddddd solid;
+    position: relative;
+    margin-top: 10px;
+    color: #666666;
+    font-size: 14px
+    
+
+}
+#middle_center_num{
+    width: 304px;
+    height: 43px;
+    background-color: #fff;
+    display: inline-table;
+    position: absolute;
+    top: 10px;
+    left: 97px;
+}
+#form1{
+    width: 304px;
+    height: 41px;
+    border: none;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    /* position: relative;
+    margin-left: 97px;
+    margin-top: -55px; */
+    border: 1px solid #dddddd;
+}
+
+#middle_center_form2{
+    position: relative;
+    margin-top: 50px; 
+}
+#form2_button{
+    width: 406px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px #dddddd solid;
+}
+#form2_button:hover{
+    border: solid 1px rgb(82, 82, 82);
+    cursor: pointer;
+}
+#button2{
+    width: 406px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    font-family: 微软雅黑;
+    background-color: #f82a26;
+    border: none;
+    position: relative;
+    margin-top: 45px;
+}
+#button2:hover{
+    background-color: #c81623;
+    cursor: pointer;
+}
+#middle_bottom{
+    height: 120px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 20px;
+}
+.middle_bottom_a{
+    font-size: 14px; 
+    color: #333333;
+    text-decoration-line: none;
+}
+.middle_bottom_a:hover{
+    color: #e63f3b;
+    cursor: pointer;
+}
+#middle_bottom_a1{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
+   
+}
+#middle_bottom_a2{
+    position: relative;
+    margin-left: 130px;
+}
+
+
+
+
+
+
+#bottom{
+    width: 995px;
+    height: 86px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+#bottom ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+   
+}
+#bottom ul li{
+    list-style: none;
+}
+#bottom p{
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 16px;
+    margin-left: 340px;
+}
+.line{
+    color: #cccccc;
+}
+.header_right_ul_a{
+    text-decoration-line: none;
+    color: #666666;
+}
+.header_right_ul_a:hover{
+    color: #e63f3b;
+    text-decoration: underline;
+    cursor: pointer;
+    /* text-decoration-line: underline  10px  #e63f3b; */
+}
